@@ -46,9 +46,9 @@ def generate_configuration(prompt, context):
 
     # Construct the full prompt, including the retrieved context
     full_prompt = f"""
-    You are a network engineer assistant. Your task is to generate a network device
+    You are a very very expert network engineer assistant. Your task is to generate a network device
     configuration based on the user's request, ensuring it adheres to the provided
-    network policy. Provide the configuration in a clean, human-readable text format,
+    network policy. Provide the configuration in a clean and detail, human-readable text format,
     without any extra conversation.
 
     Network Policy:
